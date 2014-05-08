@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C9E5C0B6E324E7E8297C9FF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97158B96630C458AB1AFEC76 /* libPods.a */; };
+		4326B206191B7BA3000227E6 /* bg_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 4326B205191B7BA3000227E6 /* bg_refresh.png */; };
 		43C3B6F618F3872C00973BB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C3B6F518F3872C00973BB0 /* Foundation.framework */; };
 		43C3B6F818F3872C00973BB0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C3B6F718F3872C00973BB0 /* CoreGraphics.framework */; };
 		43C3B6FA18F3872C00973BB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43C3B6F918F3872C00973BB0 /* UIKit.framework */; };
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4326B205191B7BA3000227E6 /* bg_refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_refresh.png; sourceTree = "<group>"; };
 		43C3B6F218F3872C00973BB0 /* RefreshControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RefreshControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C3B6F518F3872C00973BB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		43C3B6F718F3872C00973BB0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +56,8 @@
 		43C3B71C18F3872C00973BB0 /* RefreshControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RefreshControlTests-Info.plist"; sourceTree = "<group>"; };
 		43C3B71E18F3872C00973BB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		43C3B72018F3872C00973BB0 /* RefreshControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshControlTests.m; sourceTree = "<group>"; };
+		7CA95EEC79B847948B904C77 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		97158B96630C458AB1AFEC76 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,7 @@
 				43C3B6F818F3872C00973BB0 /* CoreGraphics.framework in Frameworks */,
 				43C3B6FA18F3872C00973BB0 /* UIKit.framework in Frameworks */,
 				43C3B6F618F3872C00973BB0 /* Foundation.framework in Frameworks */,
+				3C9E5C0B6E324E7E8297C9FF /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +92,7 @@
 				43C3B71A18F3872C00973BB0 /* RefreshControlTests */,
 				43C3B6F418F3872C00973BB0 /* Frameworks */,
 				43C3B6F318F3872C00973BB0 /* Products */,
+				7CA95EEC79B847948B904C77 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +112,7 @@
 				43C3B6F718F3872C00973BB0 /* CoreGraphics.framework */,
 				43C3B6F918F3872C00973BB0 /* UIKit.framework */,
 				43C3B71418F3872C00973BB0 /* XCTest.framework */,
+				97158B96630C458AB1AFEC76 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +120,7 @@
 		43C3B6FB18F3872C00973BB0 /* RefreshControl */ = {
 			isa = PBXGroup;
 			children = (
+				4326B205191B7BA3000227E6 /* bg_refresh.png */,
 				43C3B70418F3872C00973BB0 /* AppDelegate.h */,
 				43C3B70518F3872C00973BB0 /* AppDelegate.m */,
 				43C3B70718F3872C00973BB0 /* Main.storyboard */,
@@ -159,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 43C3B72418F3872C00973BB0 /* Build configuration list for PBXNativeTarget "RefreshControl" */;
 			buildPhases = (
+				1A6B3506B1D84199A9DB1CFF /* Check Pods Manifest.lock */,
 				43C3B6EE18F3872C00973BB0 /* Sources */,
 				43C3B6EF18F3872C00973BB0 /* Frameworks */,
 				43C3B6F018F3872C00973BB0 /* Resources */,
+				0E41FF4807D34961B94C9E60 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -228,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4326B206191B7BA3000227E6 /* bg_refresh.png in Resources */,
 				43C3B70E18F3872C00973BB0 /* Images.xcassets in Resources */,
 				43C3B70018F3872C00973BB0 /* InfoPlist.strings in Resources */,
 				43C3B70918F3872C00973BB0 /* Main.storyboard in Resources */,
@@ -243,6 +255,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E41FF4807D34961B94C9E60 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A6B3506B1D84199A9DB1CFF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		43C3B6EE18F3872C00973BB0 /* Sources */ = {
@@ -373,6 +418,7 @@
 		};
 		43C3B72518F3872C00973BB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CA95EEC79B847948B904C77 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -386,6 +432,7 @@
 		};
 		43C3B72618F3872C00973BB0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CA95EEC79B847948B904C77 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -456,6 +503,7 @@
 				43C3B72618F3872C00973BB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43C3B72718F3872C00973BB0 /* Build configuration list for PBXNativeTarget "RefreshControlTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +512,7 @@
 				43C3B72918F3872C00973BB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

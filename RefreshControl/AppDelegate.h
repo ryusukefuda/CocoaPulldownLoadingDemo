@@ -12,4 +12,8 @@
 
 @property (strong, nonatomic) UIWindow *window;
 
+- (void)reloadTableViewDataSource;
+- (void)doneLoadingTableViewData;
+
+
 @end
