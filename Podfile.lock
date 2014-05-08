@@ -1,0 +1,16 @@
+PODS:
+  - EGOTableViewPullRefresh (0.1.0)
+  - REMenu (1.8.5)
+  - SVProgressHUD (HEAD based on 1.0)
+
+DEPENDENCIES:
+  - EGOTableViewPullRefresh
+  - REMenu (~> 1.8.5)
+  - SVProgressHUD (HEAD)
+
+SPEC CHECKSUMS:
+  EGOTableViewPullRefresh: 7ed130952ccdc745c06835558cb13193fda22d78
+  REMenu: 282a6b5feee8cce5403d7f28e15ffbc0aee359ab
+  SVProgressHUD: 5e10939a296debf5fe5a5895eda9539b8b2114f1
+
+COCOAPODS: 0.32.1
